@@ -1,3 +1,27 @@
 .navbar {
 	padding: 2rem 5rem;
 }
+.selection-title {
+	font-size: 25px
+}
+.o_mnie {
+	background: #dc3545
+}
+.skills {
+	background: #dc2145
+} 
+.serwis {
+	background: #d33545
+}
+.doswiadczenie {
+	background: #dc3535
+}
+.portfolio {
+	background: #dc3545
+}
+.klienci {
+	background: #213545
+}
+.kontakt {
+	background: #dc3c4d
+}
