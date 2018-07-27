@@ -105,3 +105,13 @@
   	height:50vh;
   	display:flex;
 }
+.footer-row {
+	background-color: #160527;
+	width: 100%;
+	height: auto;
+}
+.footer-button {
+	background-color: #eb0440; 
+	width: 50px;
+	height: 50px;
+}
