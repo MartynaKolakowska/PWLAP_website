@@ -1,3 +1,7 @@
+.body{
+	text-align: center;
+	justify-content: center;
+}
 .navbar {
 	padding: 3rem 5rem;
 }
@@ -67,7 +71,6 @@
 	background: url('../src/SKILLS/TŁO.png');
   	background-size:cover;
     background-repeat: no-repeat;
-
   	height:45vh;
   	display:flex;
 }
@@ -116,7 +119,8 @@
 .section-title {
     font-size: 25px;
     line-height: 1;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     position: absolute;
     color: #ffffff;
     text-align: center !important;
@@ -181,4 +185,7 @@
     text-align: center;
     transition: .4s;
     padding-top: 10px;
+}
+.service-list{
+	padding-top: 40px;
 }
