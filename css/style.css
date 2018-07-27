@@ -9,6 +9,7 @@
 .container {
 		min-height:100%;
 		position:relative;
+		
 	}
 .selection-title {
 	font-size: 25px
@@ -59,9 +60,33 @@
 	background-color: white;
 }
 .bgimg {
-    background: url('tlo.png');
-    padding-top:100px;
+    background: url('../tlo.png');
   	background-size:cover;
-
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
+.colHeader{
+	width: 100%;
+  height:85vh;
+  display:flex;
+}
+
+.colAbout{
+	background: url('../src/O_MNIE/TŁO_1.png');
+  	background-size:cover;
+    background-repeat: no-repeat;
+	width:904px;
+  	height:80vh;
+  	display:flex;
+  	padding:0;
+}
+.colAbout2{
+	background: url('../src/O_MNIE/TŁO_2.png');
+  	background-size:cover;
+    background-repeat: no-repeat;
+	width: 1017vh;
+  	height:80vh;
+  	display:flex;
+  	
+}
+
+    
