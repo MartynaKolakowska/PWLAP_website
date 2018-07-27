@@ -14,27 +14,7 @@
 .selection-title {
 	font-size: 25px
 }
-.o_mnie {
-	background: #dc3545
-}
-.skills {
-	background: #dc2145
-} 
-.serwis {
-	background: #d33545
-}
-.doswiadczenie {
-	background: #dc3535
-}
-.portfolio {
-	background: #dc3545
-}
-.klienci {
-	background: #213545
-}
-.kontakt {
-	background: #dc3c4d
-}
+
 .navbar-collapse{
 	margin-right:15px; 
 }
@@ -65,7 +45,7 @@
     background-repeat: no-repeat;
 }
 .colHeader{
-	width: 100%;
+
   height:85vh;
   display:flex;
 }
@@ -88,5 +68,40 @@
   	display:flex;
   	
 }
+.skill{
+	background: url('../src/SKILLS/TŁO.png');
+  	background-size:cover;
+    background-repeat: no-repeat;
 
-    
+  	height:45vh;
+  	display:flex;
+}
+.services{
+	background: url('../src/SERWIS/TŁO.png');
+  	background-size:cover;
+    background-repeat: no-repeat;
+  	height:65vh;
+  	display:flex;
+}
+.doswiadczenie {
+	background: url('../src/doświadczenie/tło.png');
+  	background-size:cover;
+    background-repeat: no-repeat;
+  	height:160vh;
+  	display:flex;
+}
+.newsletter {
+	background: url('../src/newsletter/tło.png');
+  	background-size:cover;
+    background-repeat: no-repeat;
+  	height:40vh;
+  	display:flex;
+}
+
+.klienci {
+	background: white;
+  	background-size:cover;
+    background-repeat: no-repeat;
+  	height:50vh;
+  	display:flex;
+}
