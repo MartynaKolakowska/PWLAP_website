@@ -79,35 +79,37 @@ margin-left: 0px!important;
 	height:auto;
   	display:flex;
 }
-.services{
+/*.services{
 	background: url('../src/SERWIS/TŁO.png');
   	background-size:cover;
     background-repeat: no-repeat;
   	height:65vh;
   	display:flex;
-}
+}*/
 .doswiadczenie {
 	background: url('../src/doświadczenie/tło.png');
   	background-size:cover;
     background-repeat: no-repeat;
-  	height:160vh;
+  	min-height:160vh;
+  	height: auto;
   	justify-content: center;
 }
 .newsletter {
 	background: url('../src/newsletter/tło.png');
   	background-size:cover;
     background-repeat: no-repeat;
-  	height:40vh;
+  	min-height:40vh;
+  	height: auto;
   	display:flex;
 }
 
-.klienci {
+/*.klienci {
 	background: white;
   	background-size:cover;
     background-repeat: no-repeat;
   	height:50vh;
   	display:flex;
-}
+}*/
 .footer {
 	background-color: #160527;
 	width: 100%;
