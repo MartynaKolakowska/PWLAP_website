@@ -3,8 +3,8 @@
 	justify-content: center;
 }
 .navbar {
-	/* padding: 2rem 5rem; */
-	background: #fff;
+	padding: 2rem 5rem;
+	background: #1605277a;
 }
 
 
@@ -25,12 +25,12 @@ margin-left: 0px!important;
 	padding-right: 15px;
 	font-size: 12px;
 	font-family: 'Roboto';
-	color: black;
+	color: white;
 	font-weight: 700;
 	
 }
 .navbar a {
-    color: black;
+    color: white;
 
 }
 .footcontainer{
@@ -44,9 +44,12 @@ margin-left: 0px!important;
     background: url('../tlo.png');
   	background-size:cover;
     background-repeat: no-repeat;
-	min-height: 720px;
 }
+.colHeader{
 
+  height:85vh;
+  display:flex;
+}
 
 .colAbout{
 	background: url('../src/O_MNIE/TŁO_1.png');
@@ -210,7 +213,7 @@ margin-left: 0px!important;
     -webkit-backface-visibility: hidden;
     width: 53px;
     text-align: center;
-    transition: .4s;
+    transition: 1s;
     padding-top: 10px;
 }
 .service-list{
@@ -264,9 +267,9 @@ margin-left: 0px!important;
   z-index: 5;
 }
 
-.timeline li {
+/*.timeline li {
   padding: 1em 0;
-}
+}*/
 
 .timeline li:after {
   content: "";
@@ -292,7 +295,6 @@ margin-left: 0px!important;
 .flag-wrapper {
   position: relative;
   display: inline-block;
-  
   text-align: center;
 }
 
@@ -301,10 +303,7 @@ margin-left: 0px!important;
   display: inline;
   background: rgb(248,248,248);
   padding: 6px 10px;
-  border-radius: 5px;
-  
-  font-weight: 600;
-  text-align: left;
+
 }
 
 .direction-l .flag {
@@ -378,7 +377,7 @@ margin-left: 0px!important;
 
 .time {
   display: inline-block;
-  padding: 4px 6px;
+  padding: 6px 6px;
   background: rgb(248,248,248);
 }
 
@@ -387,7 +386,7 @@ margin-left: 0px!important;
   
   font-size: 0.77777em;
   font-style: italic;
-  line-height: 1.5em;
+
 }
 
 .direction-r .desc {
@@ -458,7 +457,7 @@ margin-left: 0px!important;
 .time-wrapper {
 	display: block;
 	position: relative;
-	margin: 4px 0 0 0;
+	margin: 6px 0 0 0;
 	z-index: 14;
 }
 
@@ -504,40 +503,39 @@ margin-left: 0px!important;
 .about_photo {
 	position: absolute;
     right: 0px;
+    height: 545px;	
 	border-top-width: 10px;
 	border-top-style: solid;
 	border-left-width: 10px;
 	border-left-style: solid;
 	border-bottom-width: 10px;
 	border-bottom-style: solid;
-	margin-top: 50px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-right: 75px;
-	
-	
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 100px;
+	padding-left: 100px;
+	padding-right: 30px;
 
 }
 
 .about_text {
 	position: absolute;
-    left: 30px;
+    left: 0px;
+    height: 545px;	
 	border-top-width: 10px;
 	border-top-style: solid;
 	border-right-width: 10px;
 	border-right-style: solid;
 	border-bottom-width: 10px;
 	border-bottom-style: solid;
-	margin-top: 50px;
-	padding-top: 30px;
-	width: 600px;
-	text-align: justify;
-}
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-top: 100px;
+	padding-right: 100px;
+	margin-right: 400px;
+	padding-left: 30px;
 
-.about_title{
-	text-align: left !important;
-}		
-		
+}
 .title {
     font-size: 20px;
     line-height: 1;
@@ -596,8 +594,23 @@ input[type=submit]:hover {
      width: 50px;
 
 }
+.ftext{
+	color:#160527;
+	 font-family: "Roboto", sans-serif;
+	 font-weight: 900;
+	 text-align: left;
+	 font-size: 16px;
 
-.motto {
-	color: #fff;
-	
+}
+.direction-r .ft{
+	color:#eb0440;
+	margin-left: 10px;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.direction-l .ft{
+	color:#eb0440;
+	margin-left: 80px;
+	font-size: 14px;
+	padding-top: 10px;
 }
