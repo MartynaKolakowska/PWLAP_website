@@ -213,7 +213,7 @@ margin-left: 0px!important;
     -webkit-backface-visibility: hidden;
     width: 53px;
     text-align: center;
-    transition: .4s;
+    transition: 1s;
     padding-top: 10px;
 }
 .service-list{
