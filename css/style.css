@@ -132,9 +132,9 @@
 .section-title {
     font-size: 25px;
     line-height: 1;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    position: absolute;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
     color: #ffffff;
     text-align: center !important;
     font-family: "Roboto", sans-serif;
@@ -154,7 +154,7 @@
 }
 .servicebox{
 	border: 1px solid #ededed;
-    padding: 30px;
+
     margin-left: -1px;
     margin-top: -1px;
 }
@@ -525,4 +525,61 @@
 	margin-right: 400px;
 	padding-left: 30px;
 
+}
+.title {
+    font-size: 20px;
+    line-height: 1;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: #160527;
+    text-align: center !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.text{
+	color:white;
+	 font-family: "Roboto", sans-serif;
+}
+input[type=text], input[type=submit] {
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+input[type=text]{
+	width:300px;
+}
+input[type=submit] {
+    background-color: #160527;
+    color: white;
+    border: none;
+    padding-right: 80px;
+    padding-left: 80px;
+    font-size: 14px;
+    margin-left: 20px
+}
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+.footer-title {
+    font-size: 30px;
+    line-height: 1;
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+ .footer-title::before {
+     background: #eb0440 none repeat scroll 0 0;
+     bottom: 0;
+     content: "";
+     height: 10px;
+     left: 35%;
+     position: absolute;
+     transform: translateX(-50%);
+     width: 50px;
 }
