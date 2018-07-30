@@ -524,4 +524,23 @@ input[type=submit] {
 input[type=submit]:hover {
     opacity: 0.8;
 }
+.footer-title {
+    font-size: 30px;
+    line-height: 1;
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
 
+}
+ .footer-title::before {
+     background: #eb0440 none repeat scroll 0 0;
+     bottom: 0;
+     content: "";
+     height: 10px;
+     left: 35%;
+     position: absolute;
+     transform: translateX(-50%);
+     width: 50px;
+}
