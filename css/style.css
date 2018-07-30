@@ -3,7 +3,8 @@
 	justify-content: center;
 }
 .navbar {
-	padding: 3rem 5rem;
+	padding: 2rem 5rem;
+	background: #16052729;
 }
 
 
@@ -21,6 +22,7 @@
 	padding-right: 15px;
 	font-size: 12px;
 	font-family: 'Roboto';
+	color: white;
 	
 }
 .footcontainer{
