@@ -3,15 +3,14 @@
 	justify-content: center;
 }
 .navbar {
-	padding: 2rem 5rem;
-	background: #1605277a;
+	/* padding: 2rem 5rem; */
+	background: #fff;
 }
 
 
 .container {
 		min-height:100%;
 		position:relative;
-		
 	}
 .row {
 margin-right: 0px!important;
@@ -25,12 +24,12 @@ margin-left: 0px!important;
 	padding-right: 15px;
 	font-size: 12px;
 	font-family: 'Roboto';
-	color: white;
+	color: black;
 	font-weight: 700;
 	
 }
 .navbar a {
-    color: white;
+    color: black;
 
 }
 .footcontainer{
@@ -44,6 +43,8 @@ margin-left: 0px!important;
     background: url('../tlo.png');
   	background-size:cover;
     background-repeat: no-repeat;
+	min-height: 80vh;
+	height: auto;
 }
 .colHeader{
 
@@ -51,29 +52,31 @@ margin-left: 0px!important;
   display:flex;
 }
 
-.colAbout{
-	background: url('../src/O_MNIE/TŁO_1.png');
+.o_mnie{
+	background: url('../src/O_MNIE/tło.png');
   	background-size:cover;
     background-repeat: no-repeat;
-	width:904px;
-  	height:80vh;
+	/* width:904px; */
+  	min-height:760px;
+	height:auto;
   	display:flex;
   	padding:0;
 }
-.colAbout2{
-	background: url('../src/O_MNIE/TŁO_2.png');
-  	background-size:cover;
-    background-repeat: no-repeat;
-	width: 1017vh;
-  	height:80vh;
-  	display:flex;
+/* .colAbout2{ */
+	/* background: url('../src/O_MNIE/TŁO_2.png'); */
+  	/* background-size:cover; */
+    /* background-repeat: no-repeat; */
+	/* width: 1017vh; */
+  	/* height:80vh; */
+  	/* display:flex; */
   	
-}
+/* } */
 .skill{
 	background: url('../src/SKILLS/TŁO.png');
   	background-size:cover;
     background-repeat: no-repeat;
-  	height:45vh;
+  	min-height:45vh;
+	height:auto;
   	display:flex;
 }
 .services{
@@ -532,7 +535,6 @@ margin-left: 0px!important;
 	padding-bottom: 100px;
 	margin-top: 100px;
 	padding-right: 100px;
-	margin-right: 400px;
 	padding-left: 30px;
 
 }
@@ -548,6 +550,11 @@ margin-left: 0px!important;
     text-transform: uppercase;
     margin-top: 0;
 }
+
+.about_title {
+	text-align: left!important;
+}
+
 .text{
 	color:white;
 	 font-family: "Roboto", sans-serif;
@@ -613,4 +620,11 @@ input[type=submit]:hover {
 	margin-left: 80px;
 	font-size: 14px;
 	padding-top: 10px;
+}
+
+.hi {
+	color: #fff;
+	margin-top: 250px;
+	margin-bottom: 250px;
+	
 }
