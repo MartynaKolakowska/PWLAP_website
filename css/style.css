@@ -53,24 +53,25 @@ margin-left: 0px!important;
 }
 
 .o_mnie{
-	background: url('../src/O_MNIE/tło.png');
-  	background-size:cover;
-    background-repeat: no-repeat;
-	/* width:904px; */
-  	min-height:760px;
+	min-height:760px;
 	height:auto;
   	display:flex;
   	padding:0;
+	}
+.colAbout1{
+	background: url('../src/O_MNIE/TŁO_1.png');
+  	background-size:cover;
+    background-repeat: no-repeat;
+	
 }
-/* .colAbout2{ */
-	/* background: url('../src/O_MNIE/TŁO_2.png'); */
-  	/* background-size:cover; */
-    /* background-repeat: no-repeat; */
-	/* width: 1017vh; */
-  	/* height:80vh; */
-  	/* display:flex; */
+.colAbout2{
+	background: url('../src/O_MNIE/TŁO_2.png');
+  	background-size:cover;
+    background-repeat: no-repeat;	
+  	height:80vh;
+  	display:flex;
   	
-/* } */
+}
 .skill{
 	background: url('../src/SKILLS/TŁO.png');
   	background-size:cover;
