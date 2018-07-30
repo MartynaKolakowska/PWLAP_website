@@ -4,7 +4,7 @@
 }
 .navbar {
 	padding: 2rem 5rem;
-	background: #16052729;
+	background: #1605277a;
 }
 
 
@@ -23,7 +23,12 @@
 	font-size: 12px;
 	font-family: 'Roboto';
 	color: white;
+	font-weight: 700;
 	
+}
+.navbar a {
+    color: white;
+
 }
 .footcontainer{
 	position: absolute;
