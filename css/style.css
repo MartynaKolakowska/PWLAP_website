@@ -3,8 +3,8 @@
 	justify-content: center;
 }
 .navbar {
-	padding: 2rem 5rem;
-	background: #1605277a;
+	/* padding: 2rem 5rem; */
+	background: #fff;
 }
 
 
@@ -25,12 +25,12 @@ margin-left: 0px!important;
 	padding-right: 15px;
 	font-size: 12px;
 	font-family: 'Roboto';
-	color: white;
+	color: black;
 	font-weight: 700;
 	
 }
 .navbar a {
-    color: white;
+    color: black;
 
 }
 .footcontainer{
@@ -44,12 +44,9 @@ margin-left: 0px!important;
     background: url('../tlo.png');
   	background-size:cover;
     background-repeat: no-repeat;
+	min-height: 720px;
 }
-.colHeader{
 
-  height:85vh;
-  display:flex;
-}
 
 .colAbout{
 	background: url('../src/O_MNIE/TŁO_1.png');
@@ -507,39 +504,40 @@ margin-left: 0px!important;
 .about_photo {
 	position: absolute;
     right: 0px;
-    height: 545px;	
 	border-top-width: 10px;
 	border-top-style: solid;
 	border-left-width: 10px;
 	border-left-style: solid;
 	border-bottom-width: 10px;
 	border-bottom-style: solid;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	margin-top: 100px;
-	padding-left: 100px;
-	padding-right: 30px;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 75px;
+	
+	
 
 }
 
 .about_text {
 	position: absolute;
-    left: 0px;
-    height: 545px;	
+    left: 30px;
 	border-top-width: 10px;
 	border-top-style: solid;
 	border-right-width: 10px;
 	border-right-style: solid;
 	border-bottom-width: 10px;
 	border-bottom-style: solid;
-	padding-top: 50px;
-	padding-bottom: 100px;
-	margin-top: 100px;
-	padding-right: 100px;
-	margin-right: 400px;
-	padding-left: 30px;
-
+	margin-top: 50px;
+	padding-top: 30px;
+	width: 600px;
+	text-align: justify;
 }
+
+.about_title{
+	text-align: left !important;
+}		
+		
 .title {
     font-size: 20px;
     line-height: 1;
@@ -597,4 +595,9 @@ input[type=submit]:hover {
      transform: translateX(-50%);
      width: 50px;
 
+}
+
+.motto {
+	color: #fff;
+	
 }
