@@ -264,9 +264,9 @@
   z-index: 5;
 }
 
-.timeline li {
+/*.timeline li {
   padding: 1em 0;
-}
+}*/
 
 .timeline li:after {
   content: "";
@@ -292,7 +292,6 @@
 .flag-wrapper {
   position: relative;
   display: inline-block;
-  
   text-align: center;
 }
 
@@ -301,10 +300,7 @@
   display: inline;
   background: rgb(248,248,248);
   padding: 6px 10px;
-  border-radius: 5px;
-  
-  font-weight: 600;
-  text-align: left;
+
 }
 
 .direction-l .flag {
@@ -378,7 +374,7 @@
 
 .time {
   display: inline-block;
-  padding: 4px 6px;
+  padding: 6px 6px;
   background: rgb(248,248,248);
 }
 
@@ -387,7 +383,7 @@
   
   font-size: 0.77777em;
   font-style: italic;
-  line-height: 1.5em;
+
 }
 
 .direction-r .desc {
@@ -458,7 +454,7 @@
 .time-wrapper {
 	display: block;
 	position: relative;
-	margin: 4px 0 0 0;
+	margin: 6px 0 0 0;
 	z-index: 14;
 }
 
@@ -597,4 +593,24 @@ input[type=submit]:hover {
      transform: translateX(-50%);
      width: 50px;
 
+}
+.ftext{
+	color:#160527;
+	 font-family: "Roboto", sans-serif;
+	 font-weight: 900;
+	 text-align: left;
+	 font-size: 16px;
+
+}
+.direction-r .ft{
+	color:#eb0440;
+	margin-left: 10px;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.direction-l .ft{
+	color:#eb0440;
+	margin-left: 80px;
+	font-size: 14px;
+	padding-top: 10px;
 }
