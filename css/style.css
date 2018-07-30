@@ -132,9 +132,9 @@
 .section-title {
     font-size: 25px;
     line-height: 1;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    position: absolute;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
     color: #ffffff;
     text-align: center !important;
     font-family: "Roboto", sans-serif;
