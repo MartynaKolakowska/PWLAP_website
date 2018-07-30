@@ -13,7 +13,10 @@
 		position:relative;
 		
 	}
-
+.row {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
 
 .navbar-collapse{
 	margin-right:15px; 
@@ -500,8 +503,6 @@
 	position: absolute;
     right: 0px;
     height: 545px;	
-	display: flex;
-	vertical-align: middle;
 	border-top-width: 10px;
 	border-top-style: solid;
 	border-left-width: 10px;
@@ -512,6 +513,7 @@
 	padding-bottom: 100px;
 	margin-top: 100px;
 	padding-left: 100px;
+	padding-right: 30px;
 
 }
 
@@ -519,8 +521,6 @@
 	position: absolute;
     left: 0px;
     height: 545px;	
-	display: flex;
-	vertical-align: middle;
 	border-top-width: 10px;
 	border-top-style: solid;
 	border-right-width: 10px;
