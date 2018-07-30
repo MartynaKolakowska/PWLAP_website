@@ -24,7 +24,7 @@
 	
 }
 .footcontainer{
-	 position: absolute;
+	position: absolute;
   	bottom: 0;
   	width: 100%;
 	height: 75px;
@@ -105,10 +105,14 @@
 	text-align: center;
 	justify-content: center; 
 }
+.footer-button svg, .footer-button i {
+	color: #eb0440;
+}
 .arrow {
-	background-color: #eb0440;
+	background-color: #ffffff;
 	border-radius: 0;
-	margin: -1rem 0 0 0;
+	margin: -1.65rem 0 0 0;
+	padding: .1rem .75rem;
 }
 .design {
 	text-align: left;
@@ -126,7 +130,10 @@
 .white {
 	color: #fff;
 }
- .section-padding {
+.white p {
+	color: #918d95;
+}
+.section-padding {
      padding: 80px 0 80px 0!important;
 }
 .section-title {
@@ -539,8 +546,9 @@ input[type=submit]:hover {
      bottom: 0;
      content: "";
      height: 10px;
-     left: 35%;
+     left: 50%;
      position: absolute;
      transform: translateX(-50%);
      width: 50px;
+
 }
