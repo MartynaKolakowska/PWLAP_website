@@ -1,6 +1,8 @@
 .body{
 	text-align: center;
 	justify-content: center;
+	color:#160527;
+
 }
 .navbar {
 	/* padding: 2rem 5rem; */
@@ -43,7 +45,7 @@ margin-left: 0px!important;
     background: url('../tlo.png');
   	background-size:cover;
     background-repeat: no-repeat;
-	min-height: 80vh;
+	min-height: 848px;
 	height: auto;
 }
 .colHeader{
@@ -62,18 +64,6 @@ margin-left: 0px!important;
     background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 1370px) {
-    .o_mnie {
-		min-height:760px;
-		height:auto;
-		display:flex;
-		padding:0;
-		background: url('../src/O_MNIE/tło.png');
-		background-size:auto;
-		background-repeat: repeat-y;
-    }
-}
-
 /* .colAbout1{ */
 	/* background: url('../src/O_MNIE/TŁO_1.png'); */
   	/* background-size:cover; */
@@ -86,6 +76,9 @@ margin-left: 0px!important;
   	/* display:flex;  	 */
 /* } */
 .skill{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 5px;
 	background: url('../src/SKILLS/TŁO.png');
   	background-size:cover;
     background-repeat: no-repeat;
@@ -101,6 +94,8 @@ margin-left: 0px!important;
   	display:flex;
 }*/
 .doswiadczenie {
+	padding-top: 50px;
+	margin-bottom: -50px;
 	background: url('../src/doświadczenie/tło.png');
   	background-size:cover;
     background-repeat: no-repeat;
@@ -168,12 +163,12 @@ margin-left: 0px!important;
      padding: 80px 0 80px 0!important;
 }
 .section-title {
-    font-size: 25px;
+    font-size: 50px;
     line-height: 1;
     padding-bottom: 30px;
     padding-top: 30px;
     position: relative;
-    color: #ffffff;
+    color: #160527;
     text-align: center !important;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
@@ -191,7 +186,7 @@ margin-left: 0px!important;
      width: 50px;
 }
 .servicebox{
-	border: 1px solid #ededed;
+	/* border: 1px solid #ededed; */
 
     margin-left: -1px;
     margin-top: -1px;
@@ -213,6 +208,7 @@ margin-left: 0px!important;
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+	line-height: 1.4;
 }
 .no-spacing-row.row {
     margin-left: 0;
@@ -241,12 +237,12 @@ margin-left: 0px!important;
 	padding-top: 40px;
 }
 .section-title2 {
-    font-size: 25px;
+    font-size: 50px;
     line-height: 1;
     padding-bottom: 40px;
     padding-top: 40px;
     position: absolute;
-    color: #eb0440;
+    color: #160527;
     text-align: center !important;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
@@ -259,9 +255,16 @@ margin-left: 0px!important;
      content: "";
      height: 10px;
      left: 50%;
+     margin-bottom: 20px;
      position: absolute;
      transform: translateX(-50%);
      width: 50px;
+}
+
+.service-col {
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #160527;
 }
 
 /* ================ The Timeline ================ */
@@ -284,7 +287,7 @@ margin-left: 0px!important;
   width: 6px;
   height: 100%;
   margin-left: -3px;
-  background: rgb(80,80,80);
+  background: #160527;
   z-index: 5;
 }
 
@@ -305,12 +308,14 @@ margin-left: 0px!important;
   width: 300px;
   float: left;
   text-align: right;
+  background-color: #f7f6f6;
 }
 
 .direction-r {
   position: relative;
   width: 300px;
   float: right;
+  background-color: #f7f6f6;
 }
 
 .flag-wrapper {
@@ -322,7 +327,6 @@ margin-left: 0px!important;
 .flag {
   position: relative;
   display: inline;
-  background: rgb(248,248,248);
   padding: 6px 10px;
 
 }
@@ -383,7 +387,7 @@ margin-left: 0px!important;
   display: inline;
   
   line-height: 1em;
-  font-size: 0.66666em;
+  font-size: 0.7em;
   color: rgb(250,80,80);
   vertical-align: middle;
 }
@@ -399,14 +403,14 @@ margin-left: 0px!important;
 .time {
   display: inline-block;
   padding: 6px 6px;
-  background: rgb(248,248,248);
 }
 
 .desc {
   margin: 1em 0.75em 0 0;
   
-  font-size: 0.77777em;
-  font-style: italic;
+  font-size: 0.8em;
+  font-family: "Exo 2";
+}
 
 }
 
@@ -440,7 +444,7 @@ margin-left: 0px!important;
 }
 
 .flag {
-	background: rgb(255,255,255);
+	background: white;
 	z-index: 15;
 }
 
@@ -491,6 +495,7 @@ margin-left: 0px!important;
 }
 
 .desc {
+
 	position: relative;
 	margin: 1em 0 0 0;
 	padding: 1em;
@@ -507,7 +512,7 @@ margin-left: 0px!important;
 	position: relative;
 	margin: 1em 1em 0 1em;
 	padding: 1em;
-	
+
   z-index: 15;
 }
 
@@ -525,6 +530,7 @@ margin-left: 0px!important;
 	position: absolute;
     right: 0px;
     height: 545px;	
+    border-color: #160527;
 	border-top-width: 10px;
 	border-top-style: solid;
 	border-left-width: 10px;
@@ -543,6 +549,7 @@ margin-left: 0px!important;
 	position: absolute;
     left: 0px;
     height: 545px;	
+    border-color: #160527;
 	border-top-width: 10px;
 	border-top-style: solid;
 	border-right-width: 10px;
@@ -557,7 +564,7 @@ margin-left: 0px!important;
 
 }
 .title {
-    font-size: 20px;
+    font-size: 34px;
     line-height: 1;
     padding-bottom: 20px;
     padding-top: 40px;
@@ -571,11 +578,24 @@ margin-left: 0px!important;
 
 .about_title {
 	text-align: left!important;
+	color:#160527;
+}
+ .about_title::before {
+     background: #eb0440 none repeat scroll 0 0;
+     bottom: 0;
+     content: "";
+     height: 10px;
+     left: 5%;
+     position: absolute;
+     transform: translateX(-50%);
+     width: 50px;
 }
 
 .text{
 	color:white;
-	 font-family: "Roboto", sans-serif;
+	 font-family: "Exo 2";
+	 font-size: 20px;
+	 line-height: 20px;
 }
 input[type=text], input[type=submit] {
     padding: 12px;
@@ -619,30 +639,73 @@ input[type=submit]:hover {
      width: 50px;
 
 }
+.footer_header{
+	font-family: "Exo 2";
+	font-weight: 700;
+	color:white;
+	font-size: 16px;
+	letter-spacing: 4px;
+}
+.footer_text{
+	font-family: "Exo 2";
+	font-weight: 400;
+	color: 98959c;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
 .ftext{
 	color:#160527;
-	 font-family: "Roboto", sans-serif;
-	 font-weight: 900;
+	 font-family: "Exo 2";
+	 font-weight: 700;
 	 text-align: left;
-	 font-size: 16px;
+	 font-size: 18px;
 
 }
 .direction-r .ft{
 	color:#eb0440;
 	margin-left: 10px;
-	font-size: 14px;
+	font-size: 16px;
 	padding-top: 10px;
 }
 .direction-l .ft{
 	color:#eb0440;
 	margin-left: 80px;
-	font-size: 14px;
+	font-size: 16px;
 	padding-top: 10px;
 }
 
 .hi {
 	color: #fff;
-	margin-top: 250px;
-	margin-bottom: 250px;
-	
+	margin-top: 230px;	
 }
+
+@media only screen and (max-width: 1370px) {
+    .o_mnie {
+		min-height:760px;
+		height:auto;
+		display:flex;
+		padding:0;
+		background: url('../src/O_MNIE/tło.png');
+		background-size:auto;
+		background-repeat: repeat-y;		
+    }
+		.bgimg {
+		background: url('../tlo.png');
+		background-size: 1368px 604px;
+		background-repeat: no-repeat;
+		min-height: 604px;
+	}
+		.hi {
+		color: #fff;
+		margin-top: 120px;		
+	}
+}
+
+.exo_text{
+	font-family: "Exo 2";
+	font-size: 18px;
+	line-height: 20px;
+	color: #717171;
+}
+
+
