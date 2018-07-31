@@ -206,9 +206,9 @@ margin-left: 0px!important;
 .servicebox p {
     text-align: center;
     color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-	line-height: 1.4;
+    font-family: "Exo 2";
+	font-size: 17px;
+	line-height: 20px;
 }
 .no-spacing-row.row {
     margin-left: 0;
@@ -271,7 +271,7 @@ margin-left: 0px!important;
 
 .timeline {
   position: relative;
-  width: 660px;
+  width: 760px;
   margin: 0 auto;
   margin-top: 120px;
   padding: 1em 0;
@@ -305,7 +305,7 @@ margin-left: 0px!important;
 
 .direction-l {
   position: relative;
-  width: 300px;
+  width: 350px;
   float: left;
   text-align: right;
   background-color: #f7f6f6;
@@ -313,7 +313,7 @@ margin-left: 0px!important;
 
 .direction-r {
   position: relative;
-  width: 300px;
+  width: 350px;
   float: right;
   background-color: #f7f6f6;
 }
