@@ -99,7 +99,7 @@ margin-left: 0px!important;
 	background: url('../src/doświadczenie/tło.png');
   	background-size:cover;
     background-repeat: no-repeat;
-  	min-height:160vh;
+  	min-height:1315px;
   	height: auto;
   	justify-content: center;
 }
@@ -309,6 +309,11 @@ margin-left: 0px!important;
   float: left;
   text-align: right;
   background-color: #f7f6f6;
+}
+
+.direction-l-ul {
+  text-align: left;  
+  padding-left: 80px;
 }
 
 .direction-r {
