@@ -303,12 +303,14 @@ margin-left: 0px!important;
   width: 300px;
   float: left;
   text-align: right;
+  background-color: white;
 }
 
 .direction-r {
   position: relative;
   width: 300px;
   float: right;
+  background-color: white;
 }
 
 .flag-wrapper {
@@ -381,7 +383,7 @@ margin-left: 0px!important;
   display: inline;
   
   line-height: 1em;
-  font-size: 0.66666em;
+  font-size: 0.7em;
   color: rgb(250,80,80);
   vertical-align: middle;
 }
@@ -403,7 +405,7 @@ margin-left: 0px!important;
 .desc {
   margin: 1em 0.75em 0 0;
   
-  font-size: 0.77777em;
+  font-size: 0.8em;
   font-style: italic;
 
 }
@@ -438,7 +440,7 @@ margin-left: 0px!important;
 }
 
 .flag {
-	background: rgb(255,255,255);
+	background: white;
 	z-index: 15;
 }
 
@@ -505,7 +507,7 @@ margin-left: 0px!important;
 	position: relative;
 	margin: 1em 1em 0 1em;
 	padding: 1em;
-	
+
   z-index: 15;
 }
 
@@ -622,19 +624,19 @@ input[type=submit]:hover {
 	 font-family: "Roboto", sans-serif;
 	 font-weight: 900;
 	 text-align: left;
-	 font-size: 16px;
+	 font-size: 18px;
 
 }
 .direction-r .ft{
 	color:#eb0440;
 	margin-left: 10px;
-	font-size: 14px;
+	font-size: 16px;
 	padding-top: 10px;
 }
 .direction-l .ft{
 	color:#eb0440;
 	margin-left: 80px;
-	font-size: 14px;
+	font-size: 16px;
 	padding-top: 10px;
 }
 
