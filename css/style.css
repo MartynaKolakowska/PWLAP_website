@@ -86,6 +86,8 @@ margin-left: 0px!important;
   	/* display:flex;  	 */
 /* } */
 .skill{
+	padding-top: 50px;
+	margin-bottom: 50px;
 	background: url('../src/SKILLS/TŁO.png');
   	background-size:cover;
     background-repeat: no-repeat;
@@ -101,6 +103,8 @@ margin-left: 0px!important;
   	display:flex;
 }*/
 .doswiadczenie {
+	padding-top: 50px;
+	margin-bottom: 50px;
 	background: url('../src/doświadczenie/tło.png');
   	background-size:cover;
     background-repeat: no-repeat;
@@ -109,6 +113,8 @@ margin-left: 0px!important;
   	justify-content: center;
 }
 .newsletter {
+	padding-top: 50px;
+	margin-bottom: 50px;
 	background: url('../src/newsletter/tło.png');
   	background-size:cover;
     background-repeat: no-repeat;
