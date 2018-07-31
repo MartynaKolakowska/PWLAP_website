@@ -1,6 +1,7 @@
 .body{
 	text-align: center;
 	justify-content: center;
+	color:#160527;
 }
 .navbar {
 	/* padding: 2rem 5rem; */
@@ -160,12 +161,12 @@ margin-left: 0px!important;
      padding: 80px 0 80px 0!important;
 }
 .section-title {
-    font-size: 25px;
+    font-size: 50px;
     line-height: 1;
     padding-bottom: 30px;
     padding-top: 30px;
     position: relative;
-    color: #ffffff;
+    color: #160527;
     text-align: center !important;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
@@ -233,12 +234,12 @@ margin-left: 0px!important;
 	padding-top: 40px;
 }
 .section-title2 {
-    font-size: 25px;
+    font-size: 50px;
     line-height: 1;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     padding-top: 40px;
     position: absolute;
-    color: #eb0440;
+    color: #160527;
     text-align: center !important;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
@@ -251,6 +252,7 @@ margin-left: 0px!important;
      content: "";
      height: 10px;
      left: 50%;
+     margin-bottom: 20px;
      position: absolute;
      transform: translateX(-50%);
      width: 50px;
@@ -563,6 +565,7 @@ margin-left: 0px!important;
 
 .about_title {
 	text-align: left!important;
+	color:#160527;
 }
  .about_title::before {
      background: #eb0440 none repeat scroll 0 0;
