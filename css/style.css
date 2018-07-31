@@ -308,14 +308,14 @@ margin-left: 0px!important;
   width: 300px;
   float: left;
   text-align: right;
-  background-color: white;
+  background-color: #f7f6f6;
 }
 
 .direction-r {
   position: relative;
   width: 300px;
   float: right;
-  background-color: white;
+  background-color: #f7f6f6;
 }
 
 .flag-wrapper {
