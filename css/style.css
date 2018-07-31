@@ -572,6 +572,16 @@ margin-left: 0px!important;
 .about_title {
 	text-align: left!important;
 }
+ .about_title::before {
+     background: #eb0440 none repeat scroll 0 0;
+     bottom: 0;
+     content: "";
+     height: 10px;
+     left: 5%;
+     position: absolute;
+     transform: translateX(-50%);
+     width: 50px;
+}
 
 .text{
 	color:white;
