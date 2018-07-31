@@ -43,7 +43,7 @@ margin-left: 0px!important;
     background: url('../tlo.png');
   	background-size:cover;
     background-repeat: no-repeat;
-	min-height: 80vh;
+	min-height: 848px;
 	height: auto;
 }
 .colHeader{
@@ -60,18 +60,6 @@ margin-left: 0px!important;
 	background: url('../src/O_MNIE/tło_fhd.png');
   	background-size:cover;
     background-repeat: no-repeat;
-}
-
-@media only screen and (max-width: 1370px) {
-    .o_mnie {
-		min-height:760px;
-		height:auto;
-		display:flex;
-		padding:0;
-		background: url('../src/O_MNIE/tło.png');
-		background-size:auto;
-		background-repeat: repeat-y;
-    }
 }
 
 /* .colAbout1{ */
@@ -658,7 +646,27 @@ input[type=submit]:hover {
 
 .hi {
 	color: #fff;
-	margin-top: 250px;
-	margin-bottom: 250px;
-	
+	margin-top: 230px;	
+}
+
+@media only screen and (max-width: 1370px) {
+    .o_mnie {
+		min-height:760px;
+		height:auto;
+		display:flex;
+		padding:0;
+		background: url('../src/O_MNIE/tło.png');
+		background-size:auto;
+		background-repeat: repeat-y;		
+    }
+		.bgimg {
+		background: url('../tlo.png');
+		background-size: 1368px 604px;
+		background-repeat: no-repeat;
+		min-height: 604px;
+	}
+		.hi {
+		color: #fff;
+		margin-top: 120px;		
+	}
 }
