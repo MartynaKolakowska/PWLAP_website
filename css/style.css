@@ -688,7 +688,7 @@ input[type=submit]:hover {
 	font-weight: 700;
 	color:white;
 	font-size: 16px;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 }
 .footer_text{
 	font-family: "Exo 2";
@@ -696,6 +696,7 @@ input[type=submit]:hover {
 	color: 98959c;
 	font-size: 16px;
 	letter-spacing: 2px;
+	margin-left: 30px;
 }
 .ftext{
 	color:#160527;
@@ -752,4 +753,8 @@ input[type=submit]:hover {
 	color: #717171;
 }
 
+.contact_icon{
+	margin-right: 10px;
+	
+}
 
