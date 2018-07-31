@@ -269,11 +269,11 @@
 				<input type="text" placeholder="ADRES E-MAIL" name="email" required>
 				<input type="submit" value="WYŚLIJ">
 			</form>
-			<?php if($emailError) {?> 
+			<?php if($emailError): ?> 
 				<div class="row justify-content-center">
 					<p class="text"> <?php echo $emailError;?> </p>
 				</div> 
-			<?php } ?>
+			<?php endif; ?>
          </div>
 
 	    </section>
