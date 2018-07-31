@@ -568,6 +568,10 @@ margin-left: 0px!important;
 	padding-left: 30px;
 
 }
+.about_text a {
+	color: #212529;
+
+}
 .title {
     font-size: 34px;
     line-height: 1;
