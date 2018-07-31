@@ -76,6 +76,7 @@ margin-left: 0px!important;
 /* } */
 .skill{
 	padding-top: 50px;
+	padding-bottom: 50px;
 	margin-bottom: 5px;
 	background: url('../src/SKILLS/TŁO.png');
   	background-size:cover;
@@ -184,7 +185,7 @@ margin-left: 0px!important;
      width: 50px;
 }
 .servicebox{
-	border: 1px solid #ededed;
+	/* border: 1px solid #ededed; */
 
     margin-left: -1px;
     margin-top: -1px;
@@ -206,6 +207,7 @@ margin-left: 0px!important;
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+	line-height: 1.4;
 }
 .no-spacing-row.row {
     margin-left: 0;
@@ -256,6 +258,12 @@ margin-left: 0px!important;
      position: absolute;
      transform: translateX(-50%);
      width: 50px;
+}
+
+.service-col {
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #160527;
 }
 
 /* ================ The Timeline ================ */
