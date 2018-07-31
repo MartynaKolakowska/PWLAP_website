@@ -2,6 +2,7 @@
 	text-align: center;
 	justify-content: center;
 	color:#160527;
+
 }
 .navbar {
 	/* padding: 2rem 5rem; */
@@ -236,7 +237,7 @@ margin-left: 0px!important;
 .section-title2 {
     font-size: 50px;
     line-height: 1;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     padding-top: 40px;
     position: absolute;
     color: #160527;
@@ -400,7 +401,8 @@ margin-left: 0px!important;
   margin: 1em 0.75em 0 0;
   
   font-size: 0.8em;
-  font-style: italic;
+  font-family: "Exo 2";
+}
 
 }
 
@@ -485,6 +487,7 @@ margin-left: 0px!important;
 }
 
 .desc {
+
 	position: relative;
 	margin: 1em 0 0 0;
 	padding: 1em;
@@ -551,7 +554,7 @@ margin-left: 0px!important;
 
 }
 .title {
-    font-size: 20px;
+    font-size: 34px;
     line-height: 1;
     padding-bottom: 20px;
     padding-top: 40px;
@@ -580,7 +583,9 @@ margin-left: 0px!important;
 
 .text{
 	color:white;
-	 font-family: "Roboto", sans-serif;
+	 font-family: "Exo 2";
+	 font-size: 20px;
+	 line-height: 20px;
 }
 input[type=text], input[type=submit] {
     padding: 12px;
@@ -624,10 +629,24 @@ input[type=submit]:hover {
      width: 50px;
 
 }
+.footer_header{
+	font-family: "Exo 2";
+	font-weight: 700;
+	color:white;
+	font-size: 16px;
+	letter-spacing: 4px;
+}
+.footer_text{
+	font-family: "Exo 2";
+	font-weight: 400;
+	color: 98959c;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
 .ftext{
 	color:#160527;
-	 font-family: "Roboto", sans-serif;
-	 font-weight: 900;
+	 font-family: "Exo 2";
+	 font-weight: 700;
 	 text-align: left;
 	 font-size: 18px;
 
@@ -671,3 +690,12 @@ input[type=submit]:hover {
 		margin-top: 120px;		
 	}
 }
+
+.exo_text{
+	font-family: "Exo 2";
+	font-size: 18px;
+	line-height: 20px;
+	color: #717171;
+}
+
+
