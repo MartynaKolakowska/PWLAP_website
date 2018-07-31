@@ -175,7 +175,7 @@ margin-left: 0px!important;
     text-transform: uppercase;
     margin-top: 0;
 }
- .section-title::before {
+.section-title::before {
      background: #ffffff none repeat scroll 0 0;
      bottom: 0;
      content: "";
@@ -184,6 +184,41 @@ margin-left: 0px!important;
      position: absolute;
      transform: translateX(-50%);
      width: 50px;
+}
+.skill-title {
+	font-size: 50px;
+    line-height: 1;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+    color: #160527;
+    text-align: center !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 0;
+}	
+.skill-title::before {
+	background: #eb0440 none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	height: 10px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 50px;
+}
+.skills-block {
+	padding: 10px;
+}
+.barfiller {
+	height: 15px;
+}
+.skill-bar {
+	background-color: #eb0440 !important;
+}
+.skill-bar .progress-bar{
+	background-color: #0acdd2 !important;
 }
 .servicebox{
 	/* border: 1px solid #ededed; */
