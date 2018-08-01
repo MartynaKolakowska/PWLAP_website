@@ -803,6 +803,9 @@ input[type=submit]:hover {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+	.skill{
+		background: #160527;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
