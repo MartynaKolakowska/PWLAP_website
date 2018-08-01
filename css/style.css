@@ -857,6 +857,20 @@ input[type=submit]:hover {
 	.skill{
 		background: #160527;
 	}
+	.section-title{
+		font-size: 22px;
+	}
+	.section-title::before{
+		background: #EB0440;
+		height: 5px;
+	}
+	.servicebox h4{
+		font-size:13px;
+	}
+	.servicebox p{
+		font-size:13px;
+		line-height: 23px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
