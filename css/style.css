@@ -688,6 +688,18 @@ input[type=submit]:hover {
 	color: #fff;
 	margin-top: 230px;	
 }
+.bgimg_hi {
+	font-size: 81px; 
+	font-weight:700; 
+	text-transform: uppercase;
+}
+.bgimg_passion {
+	font-size: 24px;
+	font-weight: 600;
+	font-style: italic;
+	margin-left: 25px;
+}
+
 
 @media only screen and (max-width: 1370px) {
     .o_mnie {
@@ -720,7 +732,6 @@ input[type=submit]:hover {
 
 .contact_icon{
 	margin-right: 10px;
-	
 }
 .navbar-toggler-icon{
 	background-image: url('../src/rwd/path2x.png')
@@ -728,7 +739,73 @@ input[type=submit]:hover {
 /*========================= Mobile ==========================*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+	.bgimg {
+		background: url('../src/HEDER/home.png');
+		background-size: cover;
+		background-repeat: no-repeat; 
+	}
 
+	.bgimg_hi {
+		color: #160527;
+		font-size: 2rem;
+		font-family: 'Roboto';
+	}
+	.bgimg_passion {
+		color: #0ACDD2;
+		font-size: 1.25rem;
+		font-family: 'Roboto';
+		margin-left: 0px;
+	}
+	.white .col-3 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.white .col-9 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.white .col-9 .col-4 {
+		margin-bottom: 1.5rem;
+		margin-top: 1.5rem;
+		flex: 0 0 100%;
+		max-width: 100%;
+		justify-content: center;
+		text-align: center;
+	}
+	.white p {
+		color: #717171;
+	}
+	.contact_icon{
+	margin-right: 10px;
+	width: 100%;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	}
+	.footer-title {
+    font-size: 1.75rem;
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+	}
+	.footer_text {
+	margin-left: 0px;
+	}
+	.under {
+		display: none;
+	}
+	.design {
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.rights {
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
