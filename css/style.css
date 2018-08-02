@@ -791,18 +791,20 @@ input[type=submit]:hover {
 @media (max-width: 575.98px) {
 
 .mobile_icon{
-	font-size:4em;
-	margin-left: 20px;
+	padding-top: 2rem;
+	font-size:4rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	margin-right: 
 }	
 .exo_text{
 	font-size: 13px;
 	margin-bottom: 0px;
 	line-height: 16px;
-	width: 260px;
-	height: 130px;
 	text-align: center;
+	padding-right: .5rem;
+	padding-left: .5rem;
 
-	padding-left: 20px;
 }
 .o_mnie{
 	background-image: none;
@@ -846,6 +848,8 @@ input[type=submit]:hover {
 	background-color: none;
 	padding-left: 0px;
 	padding-right: 0px;
+	justify-content: center;
+	text-align: center;
 
 	
 
