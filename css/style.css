@@ -997,6 +997,7 @@ input[type=submit]:hover {
     /* font-weight: 500; */
     text-transform: uppercase;
     text-align: center;
+	padding-top: 30px;
 	}
 	.footer-title::before {
 		height: 6px;
