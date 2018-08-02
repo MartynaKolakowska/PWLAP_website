@@ -824,20 +824,24 @@ input[type=submit]:hover {
 	display: none;
 }
 .about_photo{
+	position: absolute;
 	top:95px;
-	left:55px;
 	height: 176px;
 	width: auto;
 	border-left: none;
 	border-top:none;
 	border-bottom: none;
-	padding:0 0 0 0;
-	text-align: center;
-	margin-bottom: 0px;
+	margin-bottom: 1rem;
 	margin-top: 0px;
-	margin-right:55px;
+	margin-right:0px;
 	z-index: 2;
-
+	right:auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.colAbout1 {
 }
 .about_text{
 	border-right: none;
@@ -910,13 +914,13 @@ input[type=submit]:hover {
 	}
 	.bgimg_hi {
 		color: #B1B1B1;
-		font-size: 24px;
+		font-size: 1.5rem;
 		font-family: 'Roboto';
 		margin-bottom: 0rem;
 	}
 	.bgimg_passion {
 		color: #EC0440;
-		font-size: 37px;
+		font-size: 2rem;
 		font-family: 'Roboto';
 		margin-left: 0px;
 		margin-bottom: 0.5rem;
