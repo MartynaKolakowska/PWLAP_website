@@ -233,6 +233,9 @@ margin-left: 0px!important;
     transition: 1s;
     padding-top: 10px;
 }
+.service-icon-mobile {
+		display: none;
+	}
 .service-list{
 	padding-top: 40px;
 }
@@ -864,6 +867,13 @@ input[type=submit]:hover {
 		background: #EB0440;
 		height: 5px;
 	}
+	.section-title2{
+		font-size: 22px;
+	}
+	.section-title2::before{
+		background: #EB0440;
+		height: 5px;
+	}
 	.servicebox h4{
 		font-size:13px;
 	}
@@ -871,6 +881,29 @@ input[type=submit]:hover {
 		font-size:13px;
 		line-height: 23px;
 	}
+	.service-icon {
+		display: none;
+	}
+	.service-icon-mobile {
+		color: #EC0440;
+		display: block;
+		margin: 0 auto;			
+		line-height: 1;
+		backface-visibility: hidden;
+		perspective: 1000px;
+		-webkit-perspective: 1000px;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		-webkit-backface-visibility: hidden;
+		width: 40px;
+		text-align: center;
+		transition: 1s;
+		padding-top: 10px;
+		width: 40px; 
+		height: auto;
+	}
+	
+	
 }
 
 /* Small devices (landscape phones, 576px and up)*/
