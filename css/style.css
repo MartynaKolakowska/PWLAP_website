@@ -792,11 +792,10 @@ input[type=submit]:hover {
 @media (max-width: 575.98px) {
 
 .mobile_icon{
-	padding-top: 2rem;
-	font-size:4rem;
-	padding-left: .5rem;
-	padding-right: .5rem;
-	margin-right: 
+	padding-top: 3rem;
+	font-size: 4rem;
+	padding-left: .75rem;
+	padding-right: .75rem;
 }	
 .exo_text{
 	font-size: 13px;
@@ -810,6 +809,8 @@ input[type=submit]:hover {
 .o_mnie{
 	background-image: none;
 	background-color: white;
+	min-height: 100vh;
+	padding-top: 1rem;
 }
 .mobile_photo{
 	position: relative;
@@ -834,7 +835,7 @@ input[type=submit]:hover {
 	border-left: none;
 	border-top:none;
 	border-bottom: none;
-	margin-bottom: 0px;
+	margin-bottom: 1rem;
 	margin-top: 0px;
 	margin-right:0px;
 	z-index: 2;
@@ -843,7 +844,7 @@ input[type=submit]:hover {
 	padding-right: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-}a
+}
 .colAbout1 {s
 }
 .about_text{
@@ -901,6 +902,9 @@ input[type=submit]:hover {
 	.py-xs-3 {
 		padding-top: 3rem;
 		padding-bottom: 3rem;
+	}
+	.mb-xs-1 {
+		margin-bottom: 1rem;
 	}
 	.desktop-hi {
 		display: none;
