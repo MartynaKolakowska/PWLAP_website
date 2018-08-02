@@ -768,6 +768,7 @@ input[type=submit]:hover {
 	font-size: 18px;
 	line-height: 20px;
 	color: #717171;
+	letter-spacing: 0.5px;
 }
 
 .contact_icon{
@@ -800,7 +801,7 @@ input[type=submit]:hover {
 .exo_text{
 	font-size: 13px;
 	margin-bottom: 0px;
-	line-height: 16px;
+	line-height: 1.25rem;
 	text-align: center;
 	padding-right: .5rem;
 	padding-left: .5rem;
@@ -814,7 +815,7 @@ input[type=submit]:hover {
 	position: relative;
 	display: block !important;
 	margin-top: 0px;
-	margin-left: 10px;
+	margin-left: 2rem;
 	z-index: 1;
 	left:-10px;
 }
@@ -833,7 +834,7 @@ input[type=submit]:hover {
 	border-left: none;
 	border-top:none;
 	border-bottom: none;
-	margin-bottom: 1rem;
+	margin-bottom: 0px;
 	margin-top: 0px;
 	margin-right:0px;
 	z-index: 2;
@@ -842,21 +843,19 @@ input[type=submit]:hover {
 	padding-right: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-}
-.colAbout1 {
+}a
+.colAbout1 {s
 }
 .about_text{
 	border-right: none;
 	border-top: none;
 	border-bottom: none;
 	background-color: none;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 0.75rem;
+	padding-top: 35px;
+	padding-right: 0.75rem;
 	justify-content: center;
 	text-align: center;
-
-	
-
 }
 
 .navbar-toggler{
