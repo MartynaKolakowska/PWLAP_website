@@ -1090,7 +1090,7 @@ input[type=submit]:hover {
 	}
 	/*Mobile Newsletter*/
 	.newsletter {
-		min-height: 100vh;
+		min-height: 85vh;
 		background: url('../src/rwd/newsletter.png');
 	}
 	.title {
