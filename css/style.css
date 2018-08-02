@@ -868,9 +868,8 @@ input[type=submit]:hover {
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
-.colAbout1 {s
-}
-.about_text{
+
+.about_text {
 	border-right: none;
 	border-top: none;
 	border-bottom: none;
@@ -1042,7 +1041,7 @@ input[type=submit]:hover {
 		padding-right: 0px;
 	}
 	.skill{
-		background: #160527;
+		background: #7171710D;
 	}
 	.section-title{
 		font-size: 22px;
@@ -1060,12 +1059,17 @@ input[type=submit]:hover {
 		background: #EB0440;
 		height: 5px;
 	}
+	.service-col{
+		background: #7171710D;
+	}
 	.servicebox h4{
-		font-size:13px;
+		font-size:20px;
+		color: #160527;
 	}
 	.servicebox p{
-		font-size:13px;
+		font-size:15px;
 		line-height: 23px;
+		color: #717171;
 	}
 	.service-icon {
 		display: none;
@@ -1090,8 +1094,10 @@ input[type=submit]:hover {
 	}
 	/*Mobile Newsletter*/
 	.newsletter {
-		min-height: 85vh;
+		min-height: 621px;
 		background: url('../src/rwd/newsletter.png');
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	.title {
 		font-size: 1.4rem;
