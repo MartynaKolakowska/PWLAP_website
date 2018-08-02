@@ -783,6 +783,59 @@ input[type=submit]:hover {
 /*========================= Mobile ==========================*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+.exo_text{
+	font-size: 10px;
+	margin-bottom: 0px;
+	line-height: 16px;
+	width: 250px;
+	height: 100px;
+	text-align: center;
+
+	padding-right: 20px;
+}
+.o_mnie{
+	background-image: none;
+	background-color: white;
+}
+.mobile_photo{
+	display: block !important;
+	margin-top: 0px;
+	margin-left: 10px;
+	z-index: 1;
+}
+.mobile_title{
+	text-align: center !important;
+	display:block !important;
+}
+.about_title{
+	display: none;
+}
+.about_photo{
+	height: 176px;
+	width: auto;
+	border-left: none;
+	border-top:none;
+	border-bottom: none;
+	padding:0 0 0 0;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right:55px;
+	z-index: 2;
+
+}
+.about_text{
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+	background-color: none;
+	padding-left: 0px;
+	padding-right: 0px;
+
+	
+
+}
+
 .navbar-toggler{
 	font-size: .8rem;
 	margin-left: auto;
