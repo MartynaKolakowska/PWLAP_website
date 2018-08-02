@@ -770,9 +770,22 @@ input[type=submit]:hover {
 .navbar-toggler-icon{
 	background-image: url('../src/rwd/path2x.png')
 }
+.nav-rwd{
+		background-color: #160527 !important;
+	}
 /*========================= Mobile ==========================*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+.navbar a {
+    color: white;
+
+}
+	.nav-item{
+		font-size: 16px;
+		text-align: center;
+		padding: 10px;
+	}
+
 	.bgimg {
 		background: url('../src/rwd/home.png');
 		background-size: cover;
