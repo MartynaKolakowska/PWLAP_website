@@ -774,17 +774,37 @@ input[type=submit]:hover {
 .nav-rwd{
 		background-color: #160527 !important;
 	}
+.nav-brand{
+	width:240px;
+	height:auto;
+}
+.nav-toggler{
+	display: none;
+}
 /*========================= Mobile ==========================*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+.navbar-toggler{
+	font-size: .8rem;
+	margin-left: auto;
+}
+.nav-toggler{
+	display:block;
+}
+.nav-brand{
+	width: 121px;
+	height: 30px;
+}
+
 .navbar a {
     color: white;
 
 }
 	.nav-item{
-		font-size: 16px;
+		font-size: 14px;
 		text-align: center;
 		padding: 10px;
+		padding-right: 20px;
 	}
 
 	.bgimg {
