@@ -28,7 +28,7 @@
    <!-- NAVBAR -->
    	<nav class="navbar navbar-expand-sm fixed-top py-0 sidebarNavigation" data-sidebarClass="navbar nav-rwd">
      	<a class="navbar-brand" href="#" data-scroll-nav="0">
-        	<img src="src/logo.png" width="240" height="auto" alt="">
+        	<img class="nav-brand" src="src/logo.png"  alt="">
      	</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarelements" aria-controls="navbarelements" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,6 +36,10 @@
 
       	<div class="navbar-collapse collapse" id="navbarelements">
 	    	<ul class="navbar-nav ml-auto">
+            <li class="nav-item nav-toggler">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarelements" aria-controls="navbarelements" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-times"style="color:white; font-size:1.5rem"></i>
+               </button>
 				<li class="nav-item">
 					<a class="nav-link" href="#" data-scroll-nav="1">O MNIE<span class="sr-only">(current)</span></a>
 				</li>
@@ -71,6 +75,8 @@
 	    	<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-5 colAbout1">
+                  <h2 class="section-title mobile_title d-none">O mnie</h2> 
+                  <img src="./src/rwd/o_mnie.png" class="mobile_photo d-none">
 						<img src="./src/O_MNIE/ZDJĘCIE.png" class="about_photo">
 					</div>					
 					<div class="col-sm-12 col-md-7 colAbout2">
@@ -282,14 +288,11 @@
         			<h3 class="klient_title">Klienci</h3>
         		</div>
         		<div class="row justify-content-center">
-        			<div class="col-md-4 col-xs-24 p-xs-2">
-        				<img class="img-fluid" src="logo.png" alt="obraz">
+        			<div class="col-md-4 col-xs-24 p-xs-3 text-center">
+        				<img class="img-fluid" src="src\Klienci\Goldenline.png" alt="Goldeline">
         			</div>
-        			<div class="col-md-4 col-xs-24 p-xs-2">
-        				<img class="img-fluid" src="logo.png" alt="obraz">
-        			</div>
-        			<div class="col-md-4 col-xs-24 p-xs-2">
-        				<img class="img-fluid" src="logo.png" alt="obraz">
+        			<div class="col-md-4 col-xs-24 p-xs-3 text-center">
+        				<img class="img-fluid" src="src\Klienci\Ideabank.png" alt="Ideabank">
         			</div>
         		</div>
         	</div>
@@ -309,17 +312,26 @@
 					<div class="col-9 col-sm-18" style="text-align:left;">
 						<div class="row">
 							<div class="col-4">								
-								<h6 class="footer_header"><i class="fas fa-phone fa-flip-horizontal contact_icon"></i>TELEFON</h6>
+								<h6 class="footer_header">
+									<img class="img-fluid contact_icon" src="src\rwd\ikony\telephone@2x.png" alt="telefon">
+									TELEFON
+								</h6>
 								<p class="footer_text">696-450-167</p>			
 							</div>
 							<hr class="w-100 clearfix d-md-none">
 							<div class="col-4">
-								<h6 class="footer_header"><i class="far fa-envelope contact_icon"></i>POCZTA</h6>
+								<h6 class="footer_header">
+									<img class="img-fluid contact_icon" src="src\rwd\ikony\envelope@2x.png" alt="koperka">
+									POCZTA
+								</h6>
 								<p class="footer_text">pwlap@gmail.com</p>
 							</div>
 							<hr class="w-100 clearfix d-md-none">
 							<div class="col-4">
-								<h6 class="footer_header"><i class="fas fa-map-marker-alt contact_icon"></i>ADRES</h6>
+								<h6 class="footer_header">
+									<img class="img-fluid contact_icon" src="src\rwd\ikony\placeholder@2x.png" alt="telefon">
+									ADRES
+								</h6>
 								<p class="footer_text">Południowa 1c, 18-100 Łapy</p>
 							</div>
 						</div>
