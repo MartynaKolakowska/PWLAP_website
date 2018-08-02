@@ -279,14 +279,14 @@
     <section class="newsletter" data-scroll-index="4">
          <div class="container pt-2 pb-5">
             <div class="row justify-content-center">
-               <h3 class="title">Bądź na bieżąco</h2> 
+               <h3 class="title">Newsletter</h2> 
             </div>
-            <div class="row text-center justify-content-center">
-               <p class="text">Zostaw swojego maila, aby otrzymywać wiadomości z informacjami nad czym aktualnie pracuję.</p>
+            <div class="row text-center justify-content-center mb-xs-1">
+               <p class="text newsletter-content">Zostaw swojego maila, aby otrzymywać wiadomości z informacjami nad czym aktualnie pracuję.</p>
             </div>
             <form class="row justify-content-center pb-5" method="post" action="newsletter.php">
-				<input type="text" placeholder="ADRES E-MAIL" name="email" required>
-				<input type="submit" value="WYŚLIJ">
+				<input type="text" placeholder="ADRES E-MAIL" class="text-center newsletter-placeholder" name="email" required>
+				<input type="submit" value="WYŚLIJ" class="newsletter-submit">
 			</form>
 			<?php if($emailError): ?> 
 				<div class="row justify-content-center">

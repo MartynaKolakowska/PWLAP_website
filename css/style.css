@@ -1064,7 +1064,32 @@ input[type=submit]:hover {
 		width: 40px; 
 		height: auto;
 	}
-	
+	/*Mobile Newsletter*/
+	.newsletter {
+		min-height: 100vh;
+		background: url('../src/rwd/newsletter.png');
+	}
+	.title {
+		font-size: 1.4rem;
+	}
+	.newsletter-content {
+		font-family: "Exo 2";
+		font-size: 0.9rem;
+		line-height: 2;
+	}
+	.newsletter-placeholder {
+		font-family: "Exo 2";
+		font-size: 0.8rem;
+		color: #717171;
+		height: 50px;
+		margin-bottom: 2.5rem !important;
+	}
+	.newsletter-submit {
+		font-family: "Exo 2";
+		font-size: 0.8rem;
+		padding-left: 50px !important;
+		padding-right: 50px !important;
+	}
 	
 }
 
